@@ -1,0 +1,99 @@
+.home{
+    height: 100%;
+    :global{
+        .view{
+            background-color: #fff;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            .icon{
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                background-color: #1ebeff;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+        .userNum{
+            background-color: #fff;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            .icon{
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                background-color: #ff7382;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+        .purchases{
+            background-color: #fff;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            .icon{
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                background-color: #00cca2;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+        .statistics{
+            background-color: #fff;
+            display: flex;
+            height: 150px;
+            justify-content: space-around;
+            align-items:center;
+            .first{
+               margin-top: 35px;
+            }
+        }
+        .bottom{
+            height: 420px;
+            width: 100%;
+            background-color: #fff;
+            margin-top: 10px;
+            .option{
+                padding: 10px 0px 10px 20px;
+                display: flex;
+                justify-content: space-between;
+                .option-span{
+                    span{
+                        margin-right: 20px;
+                    }
+                }
+                .active{
+                    color:#9491f1;
+                    border-bottom: 5px solid #65ded7;
+                    border-radius: 3px;
+                }
+                .option-btn{
+                    width: 400px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            .eatch{
+                height: 400px;
+                width: 90%;
+            }
+        }
+    }
+}

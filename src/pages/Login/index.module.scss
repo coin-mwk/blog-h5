@@ -1,0 +1,57 @@
+// .root{
+//     font-size: 100px;
+//     // .info{
+//     //     font-size: 50px;
+//     // }
+//     // :global(.footer){ //保存类名不被更改 父级类名
+//     //     font-size: 20px;
+//     // }
+//     // :global(.ant-btn){
+//     //     color: red!important;
+//     // }
+//     // 此处，使用 global 包裹其他子节点的类名。此时，这些类名就不会被处理，在 JSX 中使用时，就可以用字符串形式的类名
+//   // 如果不加 :global ，所有类名就必须添加 styles.title 才可以
+//   :global{
+//       .info{
+//           font-size: 15px;
+//       }
+//       .footer{
+//           font-size: 50px;
+//       }
+//       .ant-btn{
+//           color: aqua!important;
+//       }
+//   }
+// }
+
+
+.root {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: center/cover url(~@/assets/login.png);
+    :global {
+      .login-logo {
+        width: 200px;
+        height: 60px;
+        display: block; 
+        margin: 0 auto 20px;
+      }
+  
+      .login-container {
+        width: 440px;
+        height: 360px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+      }
+  
+      .login-checkbox-label {
+        color: #1890ff;
+      }
+    }
+  }
